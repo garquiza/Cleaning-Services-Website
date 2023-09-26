@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.png"/>
+        <title>Serve2CleanPH</title>
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="booking.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="nav-bar">
+            <h1 class="logo">Serve2CleanPH</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="aboutUS.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="bookings.html">BOOKINGS</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+            </ul>
+        </nav>
+
+        <section class="booking">
+            <div class="details">
+                <h1>BOOKING DETAILS</h1>
+                <p>For bookings, please click your preferred package:</p>
+                <div class="list-cleaning">
+                    <h2>GENERAL CLEANING</h2>
+                    <h2>UPHOLSTERY CLEANING</h2>
+                    <h2>DEEP CLEANING</h2>
+                </div>
+            </div>
+            <div class="receipt">
+                <h1>RECEIPT</h1>
+                <div class="time-frame">
+                    <h3> Date </h3>
+                    <h3> Time </h3>
+                </div>
+                <div class="slide-items">
+                    <div class="slide-wrap">
+                        <h1> General Cleaning </h1>
+                        <ul>
+                            <li>Carpet Cleaning</li>
+                            <li>Drapes and windows treatment</li>
+                            <li>Cleaning of Ceiling</li>
+                            <li>Cleaning of Walls and Floors</li>
+                            <li>Clean the drawers, shelves and cabinets</li>
+                            <h3 class="total">
+                                Total:        ₱1000
+
+                            </h3>
+                        </ul>
+                    </div>
+                    <div class="slide-wrap">
+                        <h1> Upholstery Cleaning </h1>
+                        <ul>
+                            <li>Pre-inspection of the condition of the upholstery</li>
+                            <li>Pre-vacuuming</li>
+                            <li>Stage of shampooing (To prevent any damage, our professionals will cover your floors, even wood floors.)</li>
+                            <li>Professional upholstery cleaning equipment using high-pressure steam extraction </li>
+                            <li>Light deodorization or expert odor treatment using powerful odor control injections</li>
+                            <li>Stain remobal service</li>
+                            <li>Scotchgard Protection, which guards against further spills and stains</li>
+                            <li>Additional Backteria/Virus Removal with UV light</li>
+                            <h3 class="total">
+                                Total:        ₱2000
+                            </h3>
+                        </ul>
+                    </div>
+                    <div class="slide-wrap">
+                        <h1> Deep Cleaning </h1>
+                        <ul>
+                            <li>Clean up the door frames and doors.</li>
+                            <li>Clean walls, baseboard molding, and window sills.</li>
+                            <li>Shine up the glass panels, glass doors, mirrors, and windows. (except if scaffolding required)</li>
+                            <li>Brush and spot-clean the ceiling, crown molding, and light fixtures </li>
+                            <li>Clean the drawers, shelves, and cabinets.</li>
+                            <li>Shine up the countertops, fittings, and fixtures in the kitchen and bathroom.</li>
+                            <li>Clean kitchen equipment.</li>
+                            <li>Clean carpets and upholstered furniture</li>
+                            <li>Clean window/sliding door rails, screens, and windows as needed.</li>
+                            <li>Mop the floor after vacuuming.</li>
+                            <li>Clean the floor with steam. (Depending on flooring)</li>
+                            <h3 class="total">
+                                Total:        ₱3500
+                            </h3>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mid">
+            <button> Proceed to Payment </button>
+        </section>
+
+        <form>
+            <section class="payment">
+                <div class="payment-section">
+                    <div class="payment-details">
+                        <h3>For payments, please fillout this form: </h3>
+                        <h2>PAYMENT DETAILS</h2>
+                            <div class="input-acc">
+                                <div class="input-box">
+                                    <h3>Full Name</h3>
+                                    <input type="text" placeholder="Juan Dela Cruz" required class="name">
+                                    <i class="fa fa-user icon"></i>
+                                </div>
+                                <div class="input-box">
+                                    <h3>Complete Address</h3>
+                                    <input type="text" placeholder="187 Mobstaz St. Paliparan City" required class="name">
+                                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                                </div>
+                                <div class="input-box">
+                                    <h3>Email Address</h3>
+                                    <input type="text" placeholder="jdelacruz@gmail.com" required class="name">
+                                    <i class="fa fa-envelope icon"></i>
+                                </div>
+                                <div class="input-box">
+                                    <h3>Contact Number</h3>
+                                    <input type="number" placeholder="09********* - Contact Number" required class="name">
+                                    <i class="fa fa-phone icon"></i>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="payment-method">
+                        <h2>PAYMENT METHOD</h2>
+                        <div class="input-acc-method">
+                            <div class="input-box">
+                                <input type="radio" name="pay" class="radio" id="method1" checked>
+                                <label for="method1">
+                                    <span>
+                                        <i class="fa fa-credit-card"></i>Bank Option
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="input-box">
+                                <input type="radio" name="pay" class="radio" id="method2">
+                                <label for="method2">
+                                    <span>
+                                        <i class="fa fa-mobile-phone"></i>PayMaya
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="input-box">
+                                <input type="radio" name="pay" class="radio" id="method3" checked>
+                                <label for="method3">
+                                    <span>
+                                        <i class="fa fa-mobile-phone"></i>Gcash
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="input-box">
+                                <input type="radio" name="pay" class="radio" id="method4" checked>
+                                <label for="method4">
+                                    <span>
+                                        <i class="fa fa-money"></i>Cash
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="input-box-last">
+                            <input type="tel" name="" class="name" placeholder="1111-2222-3333-4444 or 09xxxxxxxxx" required>
+                            <i class="fa fa-credit-card icon"></i>
+                        </div>
+                        <div class="input-box-last">
+                            <input type="tel" name="" class="name" placeholder="Card CVC 632" required>
+                            <i class="fa fa-user icon"></i>
+                        </div>
+                        <div class="input-box-last">
+                            <input type="text" placeholder="Exp Month - September" required class="name">
+                            <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                        </div>
+                        <div class="input-box-last">
+                            <input type="number" placeholder="Exp Year - 2023" required class="name">
+                            <i class="fa fa-calendar-o icon" aria-hidden="true"></i>
+                        </div>
+                        <div class="input-box-last">
+                            <input type="tel" placeholder="Enter Amount" required class="name">
+                            <i class="fa fa-money icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-btn">
+                    <button> Book </button>
+                </div>
+            </form>      
+        </section>
+
+        <section class="footer">
+            <div class="footer-content">
+                <h3>Experience the best cleaning services with us!</h3>
+                <a href="contacts.html" class="inquire-btn">INQUIRE NOW</a>
+            </div>
+
+            <div class="footer-container">
+                <div class="logo-group left">
+                  <img src="img/favicon.png">
+                </div>
+                <div class="socials-footer-container">
+                  <div class="socials-container">
+                      <ul class="socials">
+                        <li><a href="https://www.facebook.com/profile.php?id=100089232471976&is_tour_dismissed=true"><i class="fa fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/serve2cleanph/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="contacts.html"><i class="fa fa-phone"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-bottom">
+                      <p>© Copyright 2023, Serve2CleanPh. All Rights Reserved.</p>
+                  </div>
+                </div>
+                <div class="logo-group right">
+                  <img src="img/favicon.png">
+                </div>
+            </div>
+        </section>  
+
+        <script>
+            const generalCleaningHeading = document.querySelector(".list-cleaning h2:first-child");
+            const upholsteryCleaningHeading = document.querySelector(".list-cleaning h2:nth-child(2)");
+            const deepCleaningHeading = document.querySelector(".list-cleaning h2:last-child");
+
+            const generalCleaningSlide = document.querySelector(".slide-items .slide-wrap:first-child");
+            const upholsteryCleaningSlide = document.querySelector(".slide-items .slide-wrap:nth-child(2)");
+            const deepCleaningSlide = document.querySelector(".slide-items .slide-wrap:last-child");
+
+            const dateElement = document.querySelector(".time-frame h3:first-child");
+            const timeElement = document.querySelector(".time-frame h3:nth-child(2)");
+
+            generalCleaningHeading.addEventListener("click", () => {
+                generalCleaningSlide.classList.toggle("show");
+                upholsteryCleaningSlide.classList.remove('show');
+                deepCleaningSlide.classList.remove('show');
+                setInterval(() => {
+                    const now = new Date();
+                    dateElement.textContent = now.toLocaleDateString();
+                    timeElement.textContent = now.toLocaleTimeString();
+                }, 1000);
+            });
+            upholsteryCleaningHeading.addEventListener("click", () => {
+                upholsteryCleaningSlide.classList.toggle("show");
+                generalCleaningSlide.classList.remove("show");
+                deepCleaningSlide.classList.remove('show');
+                setInterval(() => {
+                    const now = new Date();
+                    dateElement.textContent = now.toLocaleDateString();
+                    timeElement.textContent = now.toLocaleTimeString();
+                }, 1000);
+            });
+            deepCleaningHeading.addEventListener("click", () => {
+                deepCleaningSlide.classList.toggle("show");
+                generalCleaningSlide.classList.remove("show");
+                upholsteryCleaningSlide.classList.remove('show');
+                setInterval(() => {
+                    const now = new Date();
+                    dateElement.textContent = now.toLocaleDateString();
+                    timeElement.textContent = now.toLocaleTimeString();
+                }, 1000);
+            });
+
+            const midButton = document.querySelector('.mid button')
+            const payment = document.querySelector('section.payment');
+            midButton.addEventListener("click",() => {
+                payment.classList.toggle('show-payment');
+            })
+
+        </script>
+    
+    </body>
+</html>
